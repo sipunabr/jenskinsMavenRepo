@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testGroup">
+	<test name="groupDemo">
+		<groups>
+			<run>
+				<include name="grp1"></include>				
+			</run>
+		</groups>
+		<classes>
+			<class name="selfLearning.testTestNGTestCases.GroupTests"></class>
+			<class name="selfLearning.testTestNGTestCases.SimpleTest"></class>
+		</classes>
+	</test>
+</suite>
